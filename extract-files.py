@@ -51,6 +51,7 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.qti.imsrtpservice@3.0',
         'vendor.qti.imsrtpservice@3.1',
         'vendor.qti.qccvndhal_aidl-V1-ndk',
+        'libskia',
     ): lib_fixup_vendor_suffix,
     (
         'libar-pal',
@@ -174,6 +175,17 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libhidlbase_shim.so'),
     'vendor/lib64/libril-db.so': blob_fixup()
         .binary_regex_replace(rb'persist\.vendor\.radio\.poweron_opt', rb'persist.vendor.radio.poweron_ign'),
+    'system/priv-app/NubiaCamera/NubiaCamera.apk': blob_fixup().apktool_patch(
+        'nubia-camera-patches'
+    ),
+    'vendor/lib64/hw/sensors.hal.tof.so': blob_fixup()
+        .binary_regex_replace(b'\x00input\x00', b'\x00fakei\x00'),
+    'vendor/lib64/libNubiaImageAlgorithmVD.so': blob_fixup()
+        .clear_symbol_version('AHardwareBuffer_allocate')
+        .clear_symbol_version('AHardwareBuffer_describe')
+        .clear_symbol_version('AHardwareBuffer_lock')
+        .clear_symbol_version('AHardwareBuffer_release')
+        .clear_symbol_version('AHardwareBuffer_unlock'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
