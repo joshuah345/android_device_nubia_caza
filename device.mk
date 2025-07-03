@@ -36,7 +36,7 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
-DEVICE_PATH := device/nubia/caza
+DEVICE_PATH := device/nubia/tiro
 
 # API level
 BOARD_SHIPPING_API_LEVEL := 34
@@ -135,9 +135,9 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint-service.caza
+    android.hardware.biometrics.fingerprint-service.tiro
 
-$(call soong_config_set,surfaceflinger,udfps_lib,//$(DEVICE_PATH):libudfps_extension.caza)
+$(call soong_config_set,surfaceflinger,udfps_lib,//$(DEVICE_PATH):libudfps_extension.tiro)
 
 # Health
 PRODUCT_PACKAGES += \
@@ -294,7 +294,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    sensors.caza \
+    sensors.tiro \
     android.hardware.sensors-service.multihal
 
 PRODUCT_COPY_FILES += \
@@ -359,7 +359,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
-$(call soong_config_set,qti_vibrator,effect_lib,libqtivibratoreffect.nubia_caza-richtap)
+$(call soong_config_set,qti_vibrator,effect_lib,libqtivibratoreffect.nubia_tiro-richtap)
 $(call soong_config_set,qti_vibrator,use_effect_stream,true)
 
 # WiFi
@@ -381,4 +381,4 @@ PRODUCT_PACKAGES += \
     firmware_WCNSS_qcom_cfg.ini_symlink
 
 # Inherit from proprietary targets
-$(call inherit-product, vendor/nubia/caza/caza-vendor.mk)
+$(call inherit-product, vendor/nubia/tiro/tiro-vendor.mk)

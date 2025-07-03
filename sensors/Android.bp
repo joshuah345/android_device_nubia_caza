@@ -5,9 +5,9 @@
 //
 
 cc_library_shared {
-    name: "sensors.caza",
+    name: "sensors.tiro",
     defaults: ["hidl_defaults"],
-    init_rc: ["sensors.caza.rc"],
+    init_rc: ["sensors.tiro.rc"],
     srcs: [
         "Sensor.cpp",
         "SensorsSubHal.cpp",
@@ -30,7 +30,7 @@ cc_library_shared {
         "android.hardware.sensors@2.X-multihal",
     ],
     cflags: [
-        "-DLOG_TAG=\"sensors.caza\"",
+        "-DLOG_TAG=\"sensors.tiro\"",
     ],
     vendor: true,
 }
