@@ -137,11 +137,10 @@ persist.vendor.camera.flickerdetect.enable=1
 persist.vendor.camera.privapp.list=com.android.camera
 persist.vendor.camera.videoflicker.optimize=1
 ro.camera.enableCamera1MaxZsl=1
-ro.vendor.feature.camera_series_info=NubiaZ60Ultra
+ro.vendor.feature.camera_series_info=ZteRedMagic9
 ro.vendor.feature.camera_under_screen_sensor=true
-ro.vendor.feature.camera_zte_exif_model=nubia Z60 Ultra
-ro.vendor.feature.nubia.exif.module=NUBIA_Z60_ULTRA
-ro.vendor.product.ztename=nubia Z60 Ultra
+ro.vendor.feature.nubia.exif.module=NUBIA_REDMAGIC9
+ro.vendor.product.ztename=REDMAGIC 9 Pro
 vendor.camera.aux.packagelist=com.android.camera
 
 # Crypto
