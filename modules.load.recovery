@@ -127,6 +127,7 @@ msm-mmrm.ko
 nb7vpq904m.ko
 nvmem_qcom-spmi-sdam.ko
 nvmem_qfprom.ko
+nubia_hw_version.ko
 panel_event_notifier.ko
 pci-msm-drv.ko
 pcie-pdc.ko
