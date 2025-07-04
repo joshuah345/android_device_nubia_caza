@@ -26,7 +26,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    SettingsProviderResTiro
+    SettingsProviderResTiro \
+    ApertureResTiro
 
 # Inherit from proprietary targets
 $(call inherit-product, vendor/nubia/tiro/tiro-vendor.mk)
