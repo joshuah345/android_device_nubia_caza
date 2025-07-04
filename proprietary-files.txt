@@ -761,10 +761,7 @@ vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/CAMERA_ICP_170.elf
 
 # Camera OIS firmware
-vendor/firmware/ois_dw9781_cerro_ov64b40.prog
-vendor/firmware/ois_dw9784_cerro_imx800.prog
-vendor/firmware/ois_dw9784_cerro_imx906.prog
-vendor/firmware/ois_dw9784_cerro_ov50e40.prog
+vendor/firmware/ois_dw9784_tiro.prog
 
 # CDSP
 vendor/bin/cdsprpcd
