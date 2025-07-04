@@ -191,6 +191,7 @@ PRODUCT_PACKAGES += \
     SettingsOverlayVEUX
 
 PRODUCT_PACKAGES += \
+    ApertureResTiro \
     CarrierConfigResCommon_Sys \
     FrameworksResTarget_Vendor \
     SystemUIResCommon_Sys \
