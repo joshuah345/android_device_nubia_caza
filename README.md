@@ -1,4 +1,4 @@
-# Device configuration for nubia SM8650 family 
+# Device configuration for nubia Red Magic 9 series 
 
 ```
 #
