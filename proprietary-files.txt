@@ -1789,8 +1789,6 @@ vendor/lib64/libnative-api.so
 vendor/lib64/libqcbor.so
 
 # Secure element
-vendor/bin/hw/android.hardware.secure_element-service-aidl
-vendor/etc/init/android.hardware.secure_element.rc
 vendor/etc/vintf/manifest/android.hardware.secure_element.xml
 
 # Secure Processor
