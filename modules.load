@@ -212,6 +212,7 @@ smp2p.ko
 snd_event_dlkm.ko
 snd-soc-hdmi-codec.ko
 snd-usb-audio-qmi.ko
+soc_fan.ko
 spcom.ko
 spf_core_dlkm.ko
 spi-msm-geni.ko
