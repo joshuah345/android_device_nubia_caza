@@ -5,7 +5,7 @@ vendor/etc/acdbdata/pineapple_mtp/MTP_acdb_cal.acdb
 vendor/etc/acdbdata/pineapple_mtp/MTP_workspaceFileXml.qwsp
 
 # Camera app
-system/priv-app/NubiaCamera/NubiaCamera.apk
+#system/priv-app/NubiaCamera/NubiaCamera.apk
 
 # Camera components
 vendor/lib64/camera/components/com.qti.stats.aec.so
