@@ -1081,6 +1081,12 @@ vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint.so
 
 # Firmware
 vendor/firmware/aw882xx_acf.bin
+vendor/firmware/aw9620x_bt_0.bin
+vendor/firmware/aw9620x_bt_1.bin
+vendor/firmware/aw9620x_fw_0.bin
+vendor/firmware/aw9620x_fw_1.bin
+vendor/firmware/aw9620x_reg_0.bin
+vendor/firmware/aw9620x_reg_1.bin
 vendor/firmware/goodix_cfg_group_9916r.bin
 vendor/firmware/goodix_firmware_9916r.bin
 vendor/firmware/haptic_ram.bin
