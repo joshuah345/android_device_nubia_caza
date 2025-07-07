@@ -124,6 +124,14 @@ vendor/firmware/evass.mdt
 vendor/lib64/hw/fingerprint.gf95xx.default.so;FIX_SONAME
 vendor/lib64/libgf_hal.so
 
+# Firmware
+vendor/firmware/aw9620x_bt_0.bin
+vendor/firmware/aw9620x_bt_1.bin
+vendor/firmware/aw9620x_fw_0.bin
+vendor/firmware/aw9620x_fw_1.bin
+vendor/firmware/aw9620x_reg_0.bin
+vendor/firmware/aw9620x_reg_1.bin
+
 # Graphics (Adreno firmware)
 vendor/firmware/gen70900_zap.mbn
 
