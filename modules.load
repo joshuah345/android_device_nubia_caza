@@ -5,6 +5,7 @@ audio_pkt_dlkm.ko
 audio_prm_dlkm.ko
 audpkt_ion_dlkm.ko
 aw882xx_dlkm.ko
+aw9620x.ko
 bam_dma.ko
 bcl_soc.ko
 boot_stats.ko
