@@ -20,7 +20,8 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    ApertureResTiro
+    ApertureResTiro \
+    SystemUIResTiro 
 
 # Inherit from proprietary targets
 $(call inherit-product, vendor/nubia/tiro/tiro-vendor.mk)
