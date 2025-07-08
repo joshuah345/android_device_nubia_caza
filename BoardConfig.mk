@@ -6,5 +6,5 @@
 include device/nubia/sm8650-common/BoardConfigCommon.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG := \
+TARGET_KERNEL_CONFIG += \
     oem/boards/tiro_diff.config
