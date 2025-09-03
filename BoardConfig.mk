@@ -11,7 +11,7 @@ ODM_MANIFEST_FILES += \
 
 # Kernel
 TARGET_KERNEL_CONFIG += \
-    oem/boards/cerro_diff.config
+    oem/boards/tiro_diff.config
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
