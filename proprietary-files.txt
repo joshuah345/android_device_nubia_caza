@@ -132,9 +132,6 @@ vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-nci.conf
 vendor/etc/st54l_conf.txt
 
-# Media configs
-vendor/etc/media_profiles_pineapple.xml
-
 # Secure element
 vendor/etc/vintf/manifest/android.hardware.secure_element.xml
 
