@@ -205,7 +205,6 @@
             channels="2" />
     </EncoderProfile>
 
-    <!--
     <EncoderProfile quality="8kuhd" fileFormat="mp4" duration="30">
       <Video codec="h264"
             bitRate="105000000"
@@ -218,7 +217,6 @@
             sampleRate="48000"
             channels="2" />
     </EncoderProfile>
-    -->
 
     <EncoderProfile quality="qcif" fileFormat="3gp" duration="30">
       <Video codec="h264"
@@ -386,7 +384,6 @@
             channels="2" />
     </EncoderProfile>
 
-    <!--
     <EncoderProfile quality="timelapse8kuhd" fileFormat="mp4" duration="30">
       <Video codec="h264"
             bitRate="105000000"
@@ -399,7 +396,6 @@
             sampleRate="48000"
             channels="2" />
     </EncoderProfile>
-    -->
 
         <ImageEncoding quality="95" />
         <ImageEncoding quality="80" />
@@ -1394,7 +1390,6 @@
             channels="2" />
     </EncoderProfile>
 
-    <!--
     <EncoderProfile quality="8kuhd" fileFormat="mp4" duration="30">
       <Video codec="h264"
             bitRate="105000000"
@@ -1407,7 +1402,6 @@
             sampleRate="48000"
             channels="2" />
     </EncoderProfile>
-    -->
 
     <EncoderProfile quality="qcif" fileFormat="3gp" duration="30">
       <Video codec="h264"
@@ -1588,7 +1582,6 @@
             channels="2" />
     </EncoderProfile>
 
-    <!--
     <EncoderProfile quality="timelapse8kuhd" fileFormat="mp4" duration="30">
       <Video codec="h264"
             bitRate="105000000"
@@ -1601,7 +1594,6 @@
             sampleRate="48000"
             channels="2" />
     </EncoderProfile>
-    -->
 
         <ImageEncoding quality="95" />
         <ImageEncoding quality="80" />
