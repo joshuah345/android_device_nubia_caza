@@ -29,5 +29,12 @@ PRODUCT_PACKAGES += \
     SettingsProviderResTiro \
     ApertureResTiro
 
+# NubiaParts
+$(call inherit-product, packages/apps/NubiaParts/config.mk)
+
+PRODUCT_PACKAGES += \
+    NubiaFanControl \
+    NubiaGameKeys
+
 # Inherit from proprietary targets
 $(call inherit-product, vendor/nubia/tiro/tiro-vendor.mk)
